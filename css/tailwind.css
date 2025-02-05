@@ -2704,11 +2704,12 @@ footer {
   color: var(--color-light);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: start;
+  flex-wrap: wrap;
   gap: 1rem;
   padding: 4rem;
   @media screen and (max-width: 750px) {
-    flex-direction: flex flex-col gap-1;
+    flex-direction: column;
     gap: 2rem;
     padding: 2rem;
   }
