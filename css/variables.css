@@ -4,24 +4,24 @@
     --font-heading: "Roboto";
     --font-text: "montserrat";
 
-    --color-green-primary: #228B22;
+    --color-green-primary: #228b22;
     --color-green-secondary: #2ecc71;
     --color-blue-primary: #1976D2;
     --color-blue-secondary: #4fc3f7;
-    --color-orange: #F57C00;
+    --color-orange: rgb(245, 124, 0);
     --color-white: #ffffff;
     --color-light: #f9f9f9;
     --color-black: #121212;
     --color-gray:  #0b2238;
 
-    --size-heading-1: 2rem;
-    --size-heading-2: 1.6rem;
-    --size-heading-3: 1.2rem;
-    --size-heading-4: 1.1rem;
-    --size-heading-5: 1rem;
-    --size-heading-6: 1rem;
+    --size-heading-1: 2.5rem;
+    --size-heading-2: 2rem;
+    --size-heading-3: 1.5rem;
+    --size-heading-4: 1.3rem;
+    --size-heading-5: 1.2rem;
+    --size-heading-6: 1.1rem;
     --size-link: 0.9rem;
     --size-text: 0.9rem;
 
-    --padding-section: 3rem 0;
+    --padding-section: 0;
 }

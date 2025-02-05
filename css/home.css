@@ -1,2 +1,42 @@
 @import url('./variables.css');
 
+#cta {
+    background-image: linear-gradient(rgba(34, 139, 34, 0.5), rgba(245, 124, 0, 0.5)), url(../assets/img/1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#newsletter {
+  background-image: linear-gradient(rgba(34, 139, 34, 1), rgba(245, 124, 0, 1));
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+@keyframes moveLeftRight {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.99);
+    }
+}
+
+.animate-move-left-right {
+    animation: moveLeftRight 3s infinite;
+}
+
+input[type="email"] {
+  padding: 8px;
+
+  &::placeholder {
+    color: white;
+  }
+}
+
+.service-img {
+  width: 100%;
+}
