@@ -1,0 +1,33 @@
+@import url('./variables.css');
+
+/*hero*/
+#home{
+    background-image: linear-gradient(rgba(79, 113, 97, 0.5), rgba(15, 24, 15, 0.8)),
+                    url(../assets/img/C.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#form p{
+    color: #0b2238;
+    
+
+    
+}
+
+/* map */
+.map-container{
+    width: 100%;
+}
+
+
+hr{
+  opacity:1;
+  width:100%;
+  height:5px;
+  background-color: #228b22;
+
+}
