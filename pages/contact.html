@@ -1,160 +1,220 @@
-<!DOCTYPE html>
-<html lang="fr" data-theme="light">
-    <head>
-        <title>GreenTech Solutions | Nos Services</title>
-        <!-- Metadonnees obligatoire -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <!-- Metadonnees principales du site -->
-        <meta name="author" content="Tatchou Marc">
-        <meta name="title" content="GreenTech Solutions" /> 
-        <meta name="description" content="Création d’un site vitrine pour l’entreprise GreenTech Solutions">
-    
-        <!-- Metadonnees twitter -->
-        <meta name="twitter:title" property="og:title" itemprop="name" content="GreenTech Solutions">
-        <meta name="twitter:description" property="og:description" itemprop="description" content="Création d’un site vitrine pour l’entreprise GreenTech Solutions">
-        <meta property="twitter:image" content="./assets/img/logo-b.png" />
-        <meta property="twitter:site" content="GreenTech Solutions" />
-    
-        <!-- Metadonnees Opengraph -->
-        <meta property="og:site_name" content="GreenTech Solutions" />
-        <meta property="og:title" content="GreenTech Solutions" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="./assets/img/logo-b.png" />
-        <meta property="og:url" content="./.." />
-    
-        <!-- Icone/logo du site -->
-        <link href="../assets/img/logo-b.png" rel="icon">
-        <link href="../assets/img/logo-b.png" rel="icon" type="image/png" sizes="32x32" >
-        <link href="../assets/img/logo-b.png" rel="icon" type="image/png" sizes="16x16" >
-        <link href="../assets/img/logo-b.png" rel="apple-touch-icon">
-    
-        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script src="../js/index.js"></script>
-        <link rel="stylesheet" href="../css/index.css">
-        <link rel="stylesheet" href="../css/tailwind.css">
-        <link rel="stylesheet" href="../css/contact.css">
-    </head>
-    <body>
-        <header>
-            <nav class="bg-white-800">
-                <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-                  <div class="relative flex h-16 items-center justify-between">
-                    <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                      <!-- Mobile menu button-->
-                      <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset" aria-controls="mobile-menu" aria-expanded="false">
-                        <span class="absolute -inset-0.5"></span>
-                        <span class="sr-only">Open main menu</span>
-                        <!--
-                          Icon when menu is closed.
+      <!DOCTYPE html>
+      <html lang="fr" data-theme="light">
+          <head>
+              <title>GreenTech Solutions | Nos Services</title>
+              <!-- Metadonnees obligatoire -->
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
               
-                          Menu open: "hidden", Menu closed: "block"
-                        -->
-                        <svg class="block size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                        </svg>
-                        <!--
-                          Icon when menu is open.
-              
-                          Menu open: "block", Menu closed: "hidden"
-                        -->
-                        <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                      <div class="flex shrink-0 items-center">
-                        <img class="h-8 w-auto" src="../assets/img/logo-o.png" alt="GreenTech Solutions">
-                      </div>
-                      <div class="hidden sm:ml-6 sm:block">
-                        <div class="flex space-x-2 relative">
-                          <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                          <a href="../index.html" class="p-2" aria-current="page">Accueil</a>
-                          <a href="../pages/about.html" class="p-2">A Propos</a>
-                          <a href="../pages/services.html" class="p-2">Nos Services</a>
-                          <a href="../pages/contact.html" class="p-2 active-link">Contact</a>
-                          <input type="search" class="rounded-full border-2 px-2 focus:border-0" name="email" id="email" placeholder="Rechercher...">
-                          <img src="../assets/icons/search.svg" class="absolute right-2 top-3" alt="search" width="15">
+              <!-- Metadonnees principales du site -->
+              <meta name="author" content="Tatchou Marc">
+              <meta name="title" content="GreenTech Solutions" /> 
+              <meta name="description" content="Création d’un site vitrine pour l’entreprise GreenTech Solutions">
+          
+              <!-- Metadonnees twitter -->
+              <meta name="twitter:title" property="og:title" itemprop="name" content="GreenTech Solutions">
+              <meta name="twitter:description" property="og:description" itemprop="description" content="Création d’un site vitrine pour l’entreprise GreenTech Solutions">
+              <meta property="twitter:image" content="./assets/img/logo-b.png" />
+              <meta property="twitter:site" content="GreenTech Solutions" />
+          
+              <!-- Metadonnees Opengraph -->
+              <meta property="og:site_name" content="GreenTech Solutions" />
+              <meta property="og:title" content="GreenTech Solutions" />
+              <meta property="og:type" content="website" />
+              <meta property="og:image" content="./assets/img/logo-b.png" />
+              <meta property="og:url" content="./.." />
+          
+              <!-- Icone/logo du site -->
+              <link href="../assets/img/logo-b.png" rel="icon">
+              <link href="../assets/img/logo-b.png" rel="icon" type="image/png" sizes="32x32" >
+              <link href="../assets/img/logo-b.png" rel="icon" type="image/png" sizes="16x16" >
+              <link href="../assets/img/logo-b.png" rel="apple-touch-icon">
+          
+              <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+              <script src="https://cdn.tailwindcss.com"></script>
+              <script src="../js/index.js"></script>
+              <link rel="stylesheet" href="../css/index.css">
+              <link rel="stylesheet" href="../css/tailwind.css">
+              <link rel="stylesheet" href="../css/contact.css">
+          </head>
+          <body>
+              <header>
+                  <nav class="bg-white-800">
+                      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                        <div class="relative flex h-16 items-center justify-between">
+                          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                            <!-- Mobile menu button-->
+                            <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset" aria-controls="mobile-menu" aria-expanded="false">
+                              <span class="absolute -inset-0.5"></span>
+                              <span class="sr-only">Open main menu</span>
+                              <!--
+                                Icon when menu is closed.
+                    
+                                Menu open: "hidden", Menu closed: "block"
+                              -->
+                              <svg class="block size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                              </svg>
+                              <!--
+                                Icon when menu is open.
+                    
+                                Menu open: "block", Menu closed: "hidden"
+                              -->
+                              <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                              </svg>
+                            </button>
+                          </div>
+                          <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                            <div class="flex shrink-0 items-center">
+                              <img class="h-8 w-auto" src="../assets/img/logo-o.png" alt="GreenTech Solutions">
+                            </div>
+                            <div class="hidden sm:ml-6 sm:block">
+                              <div class="flex space-x-2 relative">
+                                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                                <a href="../index.html" class="p-2" aria-current="page">Accueil</a>
+                                <a href="../pages/about.html" class="p-2">A Propos</a>
+                                <a href="../pages/services.html" class="p-2">Nos Services</a>
+                                <a href="../pages/contact.html" class="p-2 active-link">Contact</a>
+                                <input type="search" class="rounded-full border-2 px-2 focus:border-0" name="email" id="email" placeholder="Rechercher...">
+                                <img src="../assets/icons/search.svg" class="absolute right-2 top-3" alt="search" width="15">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                            <a type="button" class="relative btn btn-primary">
+                              Rendez-vous
+                            </a>
+                          </div>
                         </div>
                       </div>
+                    
+                      <!-- Mobile menu, show/hide based on menu state. -->
+                      <div class="sm:hidden" id="mobile-menu">
+                        <div class="space-y-1 px-2 pt-2 pb-3">
+                          <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                          <a href="../index.html" class="block rounded-md px-3 py-2" aria-current="page">Accueil</a>
+                          <a href="../pages/about.html" class="block rounded-md px-3 py-2">A Propos</a>
+                          <a href="../pages/services.html" class="block rounded-md px-3 py-2">Nos Services</a>
+                          <a href="../pages/contact.html" class="block rounded-md px-3 py-2 active-link">Contact</a>
+                        </div>
+                      </div>
+                  </nav>
+              </header>  
+
+              <main>
+
+                  <!-- hero-about -->
+                  <section id="home" class="hero-about text-white py-20">
+                    <div class="container mx-auto text-right pt-20 ">
+                    
+                        <h2 class="text-4xl font-bold font-sans text-white-400  mb-4 pb-5">NOUS CONTACTEZ</h2>
+                      
                     </div>
-                    <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                      <a type="button" class="relative btn btn-primary">
-                        Rendez-vous
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                  </section >
+
+
+                  <section id="form" class="container mx-auto py-5 m-10">
+
+                    <div class="container mx-auto px-4">
+                      <h2 class="text-center text-2xl font-bold text-blue-500 pb-5 mb-6">Nous contacter</h2>
+                      
+                      <div class="grid grid-cols-1 md:grid-cols-2">
+                          <!-- Infos de contact -->
+                          <div class="bg-white p-6 shadow-lg font-sans rounded-lg">
+                              <h3 class="text-lg pt- font-sans font-semibold text-blue-500 mb-4">Nous sommes là pour vous aider</h3>
+                              <p class=" font-sans pb-5"><strong>Téléphone :</strong> </p>
+                              <p class=" font-sans  pb-5">676 23 05 21 / 698 93 04 08</p>
+                              <p class=" font-sans  pb-5"><strong>Email :</strong> </p>
+                              <p><a href=" mailto:lumjennifer06@gmail.com " class="text-blue-500  pb-10 font-sans">laurejennifer06@gmail.com</a>
+                              <p class="text-gray-700  font-sans  pb-5"><strong>Location :</strong> </p>
+                              <p class="font-sans  pb-5">Douala, BONANJO</p>
+                          </div>
               
-                <!-- Mobile menu, show/hide based on menu state. -->
-                <div class="sm:hidden" id="mobile-menu">
-                  <div class="space-y-1 px-2 pt-2 pb-3">
-                    <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                    <a href="../index.html" class="block rounded-md px-3 py-2" aria-current="page">Accueil</a>
-                    <a href="../pages/about.html" class="block rounded-md px-3 py-2">A Propos</a>
-                    <a href="../pages/services.html" class="block rounded-md px-3 py-2">Nos Services</a>
-                    <a href="../pages/contact.html" class="block rounded-md px-3 py-2 active-link">Contact</a>
+                          <!-- Formulaire -->
+                          <div class="bg-white p-6 shadow-lg rounded-lg">
+                              <h3 class="text-lg font-semibold text-[#1926d2] mb-4">Contactez-nous</h3>
+                              <form>
+                                  <div class="mb-4">
+                                      <label class="block text-gray-700">Nom</label>
+                                      <input type="text" class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                  </div>
+                                  <div class="mb-4">
+                                      <label class="block text-gray-700">Courriel</label>
+                                      <input type="email" class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="exemple@gmail.com">
+                                  </div>
+                                  <div class="mb-4">
+                                      <label class="block text-gray-700">Message</label>
+                                      <textarea class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                                  </div>
+                                  <button type="submit" class="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600">Envoyer</button>
+                              </form>
+                          </div>
+                      </div>
+                      <hr class="h-10">
                   </div>
-                </div>
-            </nav>
-        </header>  
+                  </section>
 
-        <main></main>
+            <!-- map -->
+            <section id="map" class="container  py-5"> 
+              <div class="map-container  mx-auto text-right pt-20">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9914406081493!2d2.292292615674139!3d48.85837007928746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1644836241539!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            </section>
+                    
+                    </main>
 
-        <footer>
-            <div class="footer-info">
-                <img src="../assets/img/logo-w.png" alt="logo" width="50">
-                <h4>GreenTech Solutions</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <div class="social-links">
-                    <img src="../assets/icons/facebook-white.svg" alt="facebook" width="30">
-                    <img src="../assets/icons/instagram.svg" alt="instagram" width="30">
-                    <img src="../assets/icons/linkedin.svg" alt="linkedin" width="30">
-                    <img src="../assets/icons/twitter-white.svg" alt="twitter" width="30">
-                </div>
-            </div>
-            <div class="footer-services">
-                <h4>Services</h4>
-                <ul class="footer-services-links">
-                    <li><a href="">Solutions eco-energétiques</a></li>
-                    <li><a href="">Smart cities</a></li>
-                    <li><a href="">Recyclage technologique</a></li>
-                    <li><a href="">Gestion des déchets</a></li>
-                </ul>
-            </div>
-            <div class="footer-blog">
-                <h4>Blog</h4>
-                <ul class="footer-blog-links">
-                    <li><a href="">Installation et entretien</a></li>
-                    <li><a href="">Auto-consommation</a></li>
-                </ul>
-            </div>
-            <div class="footer-support">
-              <h4>Pour les professionnels</h4>
-              <ul class="footer-support-links">
-                <li><a href="">Documentation</a></li>
-                <li><a href="">Distributeurs</a></li>
-                <li><a href="">Support de vente</a></li>
-              </ul>
-            </div>
-            <div class="footer-about">
-              <h4>A Propos</h4>
-              <ul class="footer-about-links">
-                <li><a href="">Nos engagements</a></li>
-                <li><a href="">Formations</a></li>
-                <li><a href="">Recrutement</a></li>
-                <li><a href="">FAQs</a></li>
-                <li><a href="">Contact</a></li>
-              </ul>
-            </div>
-        </footer>
-        <hr>
-        <div class="footer-copyright">
-          <p>&copy; 2025 GreenTech Solutions</p>
-          <p>Designed By WebNova</p>
-        </div>
-    </body>
-</html>
+              <footer>
+                  <div class="footer-info">
+                      <img src="../assets/img/logo-w.png" alt="logo" width="50">
+                      <h4>GreenTech Solutions</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <div class="social-links">
+                          <img src="../assets/icons/facebook-white.svg" alt="facebook" width="30">
+                          <img src="../assets/icons/instagram.svg" alt="instagram" width="30">
+                          <img src="../assets/icons/linkedin.svg" alt="linkedin" width="30">
+                          <img src="../assets/icons/twitter-white.svg" alt="twitter" width="30">
+                      </div>
+                  </div>
+                  <div class="footer-services">
+                      <h4>Services</h4>
+                      <ul class="footer-services-links">
+                          <li><a href="">Solutions eco-energétiques</a></li>
+                          <li><a href="">Smart cities</a></li>
+                          <li><a href="">Recyclage technologique</a></li>
+                          <li><a href="">Gestion des déchets</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-blog">
+                      <h4>Blog</h4>
+                      <ul class="footer-blog-links">
+                          <li><a href="">Installation et entretien</a></li>
+                          <li><a href="">Auto-consommation</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-support">
+                    <h4>Pour les professionnels</h4>
+                    <ul class="footer-support-links">
+                      <li><a href="">Documentation</a></li>
+                      <li><a href="">Distributeurs</a></li>
+                      <li><a href="">Support de vente</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-about">
+                    <h4>A Propos</h4>
+                    <ul class="footer-about-links">
+                      <li><a href="">Nos engagements</a></li>
+                      <li><a href="">Formations</a></li>
+                      <li><a href="">Recrutement</a></li>
+                      <li><a href="">FAQs</a></li>
+                      <li><a href="">Contact</a></li>
+                    </ul>
+                  </div>
+              </footer>
+              <hr>
+              <div class="footer-copyright">
+                <p>&copy; 2025 GreenTech Solutions</p>
+                <p>Designed By WebNova</p>
+              </div>
+          </body>
+      </html>

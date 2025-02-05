@@ -1,0 +1,75 @@
+    @import url('./variables.css');
+
+    /*hero-about*/
+
+    #home{
+        background-image: linear-gradient(rgba(14, 49, 33, 0.5), rgba(47, 79, 47, 0.8)),
+                        url(../assets/img/h1.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 600px;
+    }
+
+    /*mission*/
+    #missions{
+        background-color: #f7f7f7;
+        width:97%;
+        height:1300px;
+        margin:120px;
+        margin-bottom: 40px;
+        margin-top :-60px;
+        border-radius: 15px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        box-shadow: 0 5px 5px 5px rgba(227, 235, 227, 0.6);
+    }
+
+    #missions h2{
+        color: var(--color-blue-primary);
+    }
+    #missions p{
+        color: #0b2238;
+        
+
+        
+    }
+
+
+    #missions li{
+        color: #0b2238;
+        
+    }
+
+    #missions img{
+        border-radius:5px 5px 0 0 ;
+    
+        
+    }
+    /* .galerie */
+    #galerie{
+        background-color: #228B22;
+        margin: 50px;
+        width: 73%;
+        height: auto;
+        margin-left: 180px;
+        margin-top: -35px;
+
+    }
+
+    /* equipe */
+    #equipe h2{
+        color : var(--color-blue-primary);
+    }
+
+    #equipe .des{
+        color:#0b2238;
+        
+    }
+
+    #equipe p {
+        color: #0b2238;
+        
+        
+    }
+
