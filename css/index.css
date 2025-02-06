@@ -51,6 +51,11 @@ h6 {
     font-weight: 600;
 }
 
+nav {
+    font-weight: var(--font-heading);
+    padding: 5px 0;
+}
+
 p, li {
     font-family: var(--font-text);
     font-size: var(--size-text);
