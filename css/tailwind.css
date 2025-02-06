@@ -386,6 +386,11 @@
     padding: 0;
     border: 0 solid;
   }
+  #form p{
+    color: #0b2238;
+    
+    
+}
   html, :host {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
