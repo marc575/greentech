@@ -1,0 +1,114 @@
+[33mcommit 640759fb4cc968736be02900b542f2dba299d0db[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/services[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mservices[m[33m)[m
+Author: Yrdnal147 <ton_email>
+Date:   Thu Feb 6 13:18:50 2025 +0100
+
+    j'ai  réparé mon erreur
+
+[33mcommit 1c8a84aa9da2bb0878b4ef4ed448d550bc985ad4[m
+Merge: feeed25 916b4ea
+Author: Yrdnal147 <ton_email>
+Date:   Thu Feb 6 13:12:46 2025 +0100
+
+    Merge branch 'main' of https://github.com/marc575/greentech
+
+[33mcommit 916b4ea82ae1b813b40e39fb779031d61f8d1e81[m
+Merge: d2f5668 f811672
+Author: jennifer <laurejennifer06@gmail.com>
+Date:   Thu Feb 6 13:07:33 2025 +0100
+
+    resolutionpush
+
+[33mcommit d2f5668ea8436e9da5a748d8915f9514498c9a25[m
+Author: jennifer <laurejennifer06@gmail.com>
+Date:   Thu Feb 6 13:03:21 2025 +0100
+
+    secontpush
+
+[33mcommit feeed2500597661c62418b747f6c4756ff8bbb15[m
+Merge: 4fadbeb 03a4283
+Author: Yrdnal147 <ton_email>
+Date:   Thu Feb 6 12:37:42 2025 +0100
+
+    Merge branch 'services'
+
+[33mcommit 03a42831620e8e9d5e3b401158416a1d1a6f9ca5[m
+Author: Yrdnal147 <ton_email>
+Date:   Thu Feb 6 12:35:42 2025 +0100
+
+    page services à jour
+
+[33mcommit 4fadbebe65fc49957f3f6ea3f9d62ca54a2e11da[m
+Author: marc575 <mtatchou7@gmail.com>
+Date:   Thu Feb 6 12:13:45 2025 +0100
+
+    font
+
+[33mcommit f811672015e67f0ea29d8bed9ae67b3d97d18efb[m[33m ([m[1;31morigin/About[m[33m)[m
+Author: jennifer <laurejennifer06@gmail.com>
+Date:   Thu Feb 6 11:48:35 2025 +0100
+
+    ajout responsive
+
+[33mcommit 400216f1297cc906541fdbab38e93fb78604f35d[m
+Author: Yrdnal147 <ton_email>
+Date:   Thu Feb 6 07:57:15 2025 +0100
+
+    mise à jour de la page seervices et créatio d'une autre page new pour les détails de service
+
+[33mcommit 5a3b689f50db1a9091de2892241883a04ee44d16[m
+Merge: a1e6973 de2ceb6
+Author: marc575 <mtatchou7@gmail.com>
+Date:   Wed Feb 5 16:54:46 2025 +0100
+
+    stage
+
+[33mcommit a1e6973d858476803f568d4ed3ea7fd12a22ac76[m
+Author: marc575 <mtatchou7@gmail.com>
+Date:   Wed Feb 5 16:52:18 2025 +0100
+
+    stage
+
+[33mcommit e54ce75f9303da47848a20817eefa82e0979f0b4[m
+Author: marc575 <mtatchou7@gmail.com>
+Date:   Wed Feb 5 16:45:38 2025 +0100
+
+    home v1
+
+[33mcommit de2ceb6eeaaef036e97433c5d335a6a715e6d040[m
+Merge: 71a28e1 7bf5619
+Author: jenniferzemta <143270310+jenniferzemta@users.noreply.github.com>
+Date:   Wed Feb 5 16:25:18 2025 +0100
+
+    Merge pull request #1 from marc575/About
+    
+    About1
+
+[33mcommit 7bf56192d9d154473b3892fb1784fd6b282cb152[m
+Author: jennifer <laurejennifer06@gmail.com>
+Date:   Wed Feb 5 15:51:00 2025 +0100
+
+    ajout About
+
+[33mcommit 5219d216829dd8f134ac6b28a51af52d786656a6[m
+Author: Yrdnal147 <ton_email>
+Date:   Tue Feb 4 05:37:28 2025 +0100
+
+    Ajout des modifications sur services.html
+
+[33mcommit 71a28e1f649ea340140eab6728ee67907eab383d[m
+Author: Yrdnal147 <ton_email>
+Date:   Tue Feb 4 05:26:58 2025 +0100
+
+    Ajout des modifications dans services.html
+
+[33mcommit d989d5d59916e055e415ffa706b96f5cc397c2f7[m
+Author: jennifer <laurejennifer06@gmail.com>
+Date:   Mon Feb 3 17:03:13 2025 +0100
+
+    init about
+
+[33mcommit 9514311d930c4ef8cbf718dc4f3fe40786602328[m
+Author: marc575 <mtatchou7@gmail.com>
+Date:   Mon Feb 3 16:40:06 2025 +0100
+
+    start project
