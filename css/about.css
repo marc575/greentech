@@ -15,14 +15,24 @@
     /*mission*/
     #missions{
         background-color: #f7f7f7;
-        width:97%;
-        height:1300px;
-        margin:120px;
+        width:auto;
+        height:auto;
+        /* margin:120px; */
         margin-bottom: 40px;
         margin-top :-60px;
         border-radius: 15px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         box-shadow: 0 5px 5px 5px rgba(227, 235, 227, 0.6);
+
+        @media screen and (max-width:750px) {
+            margin-top :-10px;
+        }
+
+        
+        @media screen and (max-width:550px) {
+            margin-top :-10px;
+            
+        }
     }
 
     #missions h2{
@@ -49,10 +59,9 @@
     /* .galerie */
     #galerie{
         background-color: #228B22;
-        margin: 50px;
-        width: 73%;
+        width: 70%;
         height: auto;
-        margin-left: 180px;
+        /* margin-left: 180px; */
         margin-top: -35px;
 
     }
