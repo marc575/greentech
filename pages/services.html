@@ -106,13 +106,15 @@
           <section class="relative h-85">
             <!-- Vidéo de fond en plein écran, qui couvre toute la largeur et la hauteur -->
             <video autoplay muted loop playsinline class="absolute hover:scale-110 top-0 left-0 w-full h-full object-cover">
-              <source src="../assets/img/background.mp4" type="video/mp4">
+              <source class="aspect-video
+              aspect-ratio: var(--aspect-ratio-video);" src="../assets/img/background.mp4" type="video/mp4">
+              
               Video
             </video>
             <!-- Contenu superposé à la vidéo avec un fond semi-transparent et texte centré -->
             <div class="relative z-10 text-white text-center p-10 bg-black bg-opacity-40">
               <!-- Titre principal de la section, avec effet au survol -->
-              <h1 class="text-7xl text-green-500 font-bold hover:text-blue-800"  style='color: #228B22'>Nos Services</h1>
+              <h1 class="text-7xl text-[#228B22] font-bold hover:text-[#1976D2]">Nos Services</h1>
               <!-- Sous-titre avec couleur et effet au survol -->
               <p class="text-2xl text-white ">Découvrez des solutions sur mesure pour un avenir meilleur</p>
             </div>
@@ -120,7 +122,7 @@
         
           <!-- Section avec un texte centré pour l'introduction des services -->
           <section>
-            <p class="text-2xl text-center text-blue-500  w-180 font-bold h-210 hover:text-green-500" style='color: #228B22' >
+            <p class="text-2xl text-center text-[#1976D2]  w-180 font-bold h-210 hover:text-[#228B22] " >
               Nous Répondons à vos besoins énergétiques
             </p>
           </section>
@@ -129,80 +131,80 @@
           <section id="services" class="py-10 container mx-auto bg-gray-100">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 p-10">
               <!-- Service 1 -->
-              <div class="bg-green-500 rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-300" >
+              <div class="bg-[#228B22]  rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-300" >
                 <img src="../assets/img/service1.jpg" alt="Service 1" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500">
                 <!-- Superposition d'une couleur sombre avec transparence -->
                 <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <!-- Détails du service avec un bouton d'action -->
                 <div class="p-4 text-white relative">
-                  <h3 class="text-xl text-blue-500 font-bold">Solutions éco-énergétiques</h3>
+                  <h3 class="text-xl text-black font-bold">Solutions éco-énergétiques</h3>
                   <p class="text-sm mt-2">Améliorer l'efficacité énergétique et réduire l'empreinte carbone.</p>
                   <a href="new.html">
-                    <button class="mt-4 px-4 py-2 bg-blue-500 text-white font-semibold rounded-xl shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 transition">Détails</button>
+                    <button class="mt-4 px-4 py-2 bg-[#1976D2] text-white font-semibold rounded-xl shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 transition">Détails</button>
                   </a>
                 </div>
               </div>
         
               <!-- Service 2 -->
-              <div class="bg-green-800 rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <div class="bg-[#228B22]  rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-300">
                 <img src="../assets/img/service2.png" alt="Service 2" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500">
                 <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div class="p-4 text-white relative">
-                  <h3 class="text-xl text-blue-500 font-bold">Smart Cities (Villes intelligentes)</h3>
+                  <h3 class="text-xl text-black font-bold">Smart Cities (Villes intelligentes)</h3>
                   <p class="text-sm mt-2">Optimisation des ressources et réduction de l'impact environnemental.</p>
                   <a href="new.html">
-                    <button class="mt-4 px-4 py-2 bg-blue-500 text-white font-semibold rounded-xl shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 transition">Détails</button>
+                    <button class="mt-4 px-4 py-2 bg-[#1976D2] text-white font-semibold rounded-xl shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 transition">Détails</button>
                   </a>
                 </div>
               </div>
         
               <!-- Service 3 -->
-              <div class="bg-green-500 rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <div class="bg-[#228B22] rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-300">
                 <img src="../assets/img/service3.jpg" alt="Service 3" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500">
                 <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div class="p-4 text-white relative">
-                  <h3 class="text-xl text-blue-800 font-bold">Recyclage technologique</h3>
+                  <h3 class="text-xl text-black font-bold">Recyclage technologique</h3>
                   <p class="text-sm mt-2">Récupération des composants électroniques en fin de vie.</p>
                   <a href="new.html">
-                    <button class="mt-4 px-4 py-2 bg-orange-500 text-white font-semibold rounded-xl shadow-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-orange-500 transition">Détails</button>
+                    <button class="mt-4 px-4 py-2 bg-[#1976D2] text-white font-semibold rounded-xl shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 transition">Détails</button>
                   </a>
                 </div>
               </div>
               
               <!-- les autres services 4,5,6... -->
               
-<div class="bg-green-500 rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-300">
+<div class="bg-[#228B22] rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-300">
   <img src="../assets/img/service4.jpg" alt="Service 3" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500">
   <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
   <div class="p-4 text-white relative">
-    <h3 class="text-xl  text-blue-800 font-bold">Gestion des déchets</h3>
+    <h3 class="text-xl  text-black  font-bold">Gestion des déchets</h3>
     <p class="text-sm mt-2">La gestion des déchets consiste à collecter, trier, 
       traiter et valoriser les déchets pour minimiser leur impact environnemental..</p>
     <a href="new.html">
-      <button class="mt-4 px-4 py-2 bg-orange-500 text-white font-semibold rounded-xl shadow-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-orange-500 transition">Détails</button>
+      <button class="mt-4 px-4 py-2 bg-[#1976D2] text-white font-semibold rounded-xl shadow-md hover:bg-orange focus:outline-none focus:ring-2 focus:ring-orange-500 transition">Détails</button>
     </a>
   </div>
 </div>
-<div class="bg-green-500 rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-1xl transition-shadow duration-300">
+<div class="bg-[#228B22]  rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-1xl transition-shadow duration-300">
   <img src="../assets/img/service5.jpeg" alt="Service 3" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500">
   <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
   <div class="p-4 text-white relative">
-    <h3 class="text-xl text-blue-500 font-bold">Mobilité durable</h3>
+    <h3 class="text-xl text-black font-bold">Mobilité durable</h3>
     <p class="text-sm mt-2">solution visant à réduire l'empreinte carbone liée au transport</p>
     <a href="new.html">
-      <button class="mt-4 px-4 py-2 bg-blue-500 text-white font-semibold rounded-xl shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 transition">Détails</button>
+      <button class="mt-4 px-4 py-2 bg-[#1976D2] text-white font-semibold rounded-xl shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 transition">Détails</button>
     </a>
   </div>
 </div>
-<div class="bg-green-500  rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-300">
+<div class="bg-[#228B22]  rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-300">
   <img src="../assets/img/service6.jpeg" alt="Service 3" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500">
   <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
   <div class="p-4 text-white relative">
-    <h3 class="text-xl text-blue-800 font-bold">Consulting en transition écologique</h3>
+    <h3 class="text-xl text-black font-bold">Consulting en transition écologique</h3>
     <p class="text-sm mt-2">Accompagnement des entreprises et collectivités 
       dans leur transition vers des pratiques plus durables</p>
     <a href="new.html">
-      <button class="mt-4 px-4 py-2 bg-orange-500 text-white font-semibold rounded-xl shadow-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-orange-500 transition">Détails</button>
+      <button class="mt-4 px-4 py-2 bg-[#1976D2] text-white font-semibold rounded-xl shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 transition">Détails</button>
     </a>
   </div>
 </div>
@@ -214,11 +216,11 @@
             <!-- Formulaire d'abonnement avec une largeur large et un espacement interne généreux -->
             <form class="w-full max-w-8xl bg-white-200 m-5 p-10 rounded-lg shadow-md space-y-4">
               <!-- Titre du formulaire avec style centré -->
-              <h2 class="text-4xl font-bold text-center text-green-500">
+              <h2 class="text-4xl font-bold text-center text-[#1976D2]">
                 Abonnez-vous maintenant pour commencer
               </h2>
               <!-- Sous-titre du formulaire avec une couleur attrayante -->
-              <p class="text-center text-green-500">Découvrez les dernières avancées en matière d’énergies renouvelables et de pratiques de vie durables</p>
+              <p class="text-center text-[#1976D2]">Découvrez les dernières avancées en matière d’énergies renouvelables et de pratiques de vie durables</p>
         
               <!-- Champ de saisie pour l'email -->
               <div>
@@ -227,73 +229,95 @@
               </div>
         
               <!-- Bouton d'envoi du formulaire -->
-              <button type="submit" class="w-full hover:bg-blue-800 bottom-center p-3 bg-orange-500 text-white font-bold rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <button type="submit" class="w-full  bottom-center p-3 bg-[#1976D2] text-white font-bold rounded-md hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
                 Envoyer
               </button>
             </form>
           </section>
-          <div class="bg-gray-900 text-white p-10 min-h-screen">
-            <h1 class="text-4xl font-bold mb-4 text-green-400">FAQ</h1>
-            <p class="text-gray-300 mb-8">As A Matter Of Fact The Unification Of The Coherent Software Provides A Strict Control Over The Accomplishment Of Intended Estimation</p>
-            
+          <div class="bg-white  text-[#1976D2] p-10 min-h-screen">
+            <h1 class="text-4xl font-bold mb-4 ">FAQ</h1>
+          
             <div class="grid lg:grid-cols-2 gap-8 items-center">
-              <!-- Illustration Section -->
+              <!-- Section  image  -->
               <div class="flex justify-center">
-                <img src="https://via.placeholder.com/300x300" alt="FAQ illustration">
+                <img src="../assets/img/faq.png" alt=" illustration FAQ">
               </div>
           
-              <!-- FAQ Section -->
+              <!--  FAQ  -->
               <div class="w-full">
                 <div class="space-y-4">
-                  <!-- Question 1 -->
-                  <div class="bg-gray-800 p-4 rounded-lg">
+                  <!--  Question 1 -->
+                  <div class="p-4 rounded-lg>
                     <button onclick="toggleFaq('faq1')" class="flex justify-between items-center w-full">
-                      <span class="text-lg font-semibold">Do You Offer Both On-Site And Remote IT Support?</span>
+                      <span class="text-lg font-semibold">Pourquoi devrais-je faire appel à un service de consulting en transition écologique ?</span>
                       <svg class="w-5 h-5 transform transition-transform" id="icon-faq1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                       </svg>
                     </button>
-                    <p id="faq1" class="hidden mt-2 text-gray-400">Yes, we provide comprehensive IT support tailored to your needs, either on-site or remotely.</p>
+                    <p id="faq1" class="hidden mt-2 text-white"> Nos experts vous aident à intégrer 
+                      des pratiques respectueuses de l'environnement dans votre activité tout 
+                      en optimisant vos coûts énergétiques. Vous bénéficierez de conseils personnalisés 
+                      pour réduire votre empreinte carbone
+                       et respecter les normes environnementales en constante évolution..</p>
                   </div>
           
                   <!-- Question 2 -->
-                  <div class="bg-gray-800 p-4 rounded-lg">
+                  <div class=" p-4 rounded-lg">
                     <button onclick="toggleFaq('faq2')" class="flex justify-between items-center w-full">
-                      <span class="text-lg font-semibold">What Is Techida?</span>
+                      <span class="text-lg font-semibold">Quel type d'accompagnement proposez-vous ?</span>
                       <svg class="w-5 h-5 transform transition-transform" id="icon-faq2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                       </svg>
                     </button>
-                    <p id="faq2" class="hidden mt-2 text-gray-400">Techida is a leading technology solution provider focusing on innovation and efficiency.</p>
+                    <p id="faq2" class="hidden mt-2 text-gray-400">Nous offrons un accompagnement complet, 
+                      allant de l'analyse de votre impact environnemental actuel à la mise
+                       en œuvre de stratégies vertes sur mesure et au suivi de vos progrès.</p>
                   </div>
           
                   <!-- Question 3 -->
-                  <div class="bg-gray-800 p-4 rounded-lg">
+                  <div class=" p-4 rounded-lg">
                     <button onclick="toggleFaq('faq3')" class="flex justify-between items-center w-full">
-                      <span class="text-lg font-semibold">Is There Any Updates In The Future?</span>
+                      <span class="text-lg font-semibold">Qu'est-ce que la mobilité durable ?</span>
                       <svg class="w-5 h-5 transform transition-transform" id="icon-faq3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                       </svg>
                     </button>
-                    <p id="faq3" class="hidden mt-2 text-gray-400">Yes, we constantly innovate and update our services to meet market demands.</p>
+                    <p id="faq3" class="hidden mt-2 text-[#1976D2]">La mobilité durable vise à réduire 
+                      l'impact environnemental des déplacements en favorisant des moyens de transport 
+                      moins polluants comme les véhicules électriques, les transports
+                       en commun et les solutions de mobilité partagée</p>
                   </div>
           
                   <!-- Question 4 -->
-                  <div class="bg-gray-800 p-4 rounded-lg">
+                  <div class=" p-4 rounded-lg">
                     <button onclick="toggleFaq('faq4')" class="flex justify-between items-center w-full">
-                      <span class="text-lg font-semibold">How Much For The Service?</span>
+                      <span class="text-lg font-semibold">Comment GreenTech peut-il m'aider à adopter une mobilité durable ?</span>
                       <svg class="w-5 h-5 transform transition-transform" id="icon-faq4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                       </svg>
                     </button>
-                    <p id="faq4" class="hidden mt-2 text-gray-400">Our pricing depends on the service package chosen. Contact us for detailed information.</p>
+                    <p id="faq4" class="hidden mt-2 text-[#1976D2]">Nous proposons des solutions personnalisées 
+                      pour les entreprises et collectivités, incluant l'installation de bornes de recharge électrique, 
+                      des conseils pour optimiser les flottes de véhicules et des études
+                       de faisabilité pour encourager l'adoption de modes de transport alternatifs.</p>
+                  </div>
+                  <!-- Question 5 -->
+                  <div class=" p-4 rounded-lg">
+                    <button onclick="toggleFaq('faq5')" class="flex justify-between items-center w-full">
+                      <span class="text-lg  text-[#1976D2] font-semibold">Pourquoi est-il important de recycler les équipements technologiques ?</span>
+                      <svg class="w-5 h-5 transform transition-transform" id="icon-faq5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                      </svg>
+                    </button>
+                    <p id="faq5" class="hidden mt-2 text-[#1976D2]">Les équipements technologiques contiennent des composants toxiques et des métaux précieux. Leur recyclage permet de réduire la pollution, de récupérer des matériaux 
+                      réutilisables et de limiter la demande de nouvelles matières premières.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          
-          <!--script>
+          <!--un scrpit qui gère les reponses-->
+          <script>
           function toggleFaq(id) {
             const content = document.getElementById(id);
             const icon = document.getElementById(`icon-${id}`);
@@ -306,13 +330,13 @@
               icon.classList.remove('rotate-180');
             }
           }
-          </script-->
+          </script>
           
           
         </main>
         
       <!--  -->
-      <footer>
+      <footer >
           <div class="footer-info">
               <img src="../assets/img/logo-w.png" alt="logo" width="50">
               <h4>GreenTech Solutions</h4>
